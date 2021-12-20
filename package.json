@@ -1,14 +1,27 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Github License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&style=for-the-badge)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanhlam90/note-taker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/khanhlam90/note-taker/issues"
+  },
+  "homepage": "https://github.com/khanhlam90/note-taker#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
   }
 }
