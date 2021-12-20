@@ -49,22 +49,22 @@ To use this application, please follow the following steps:
 - To host your own app, first sign up a free [Heroku Account](https://www.heroku.com/), then from the command line, install Heroku - 'brew tap heroku/brew && brew install heroku' (for Mac users). For Window users, please visit Heroku for details.
 - After installing Heroku, from command line, create new project - 'heroku create desiredAppName'
 - Using Git command line - 'git add -A', 'git commit -m "details of the commit"', then 'git push heroku main'
-- Users should now see a link to your app - for example, https://expressjs-notetakr.herokuapp.com/
+- Users should now see an url link to their app from the command line (note that the link should end in .com). For example, https://expressjs-notetakr.herokuapp.com/
 - Note that users could perform the same Git command line to push changes to their Github - 'git push origin main' (or whatever branch they desire).
 
 ## Usage 
-After the installation, please access your heroku link - for example,  [Note Taker](https://expressjs-notetakr.herokuapp.com/)
+After the installation, please access your Heroku URL Link. For example, [Note Taker](https://expressjs-notetakr.herokuapp.com/)
 - [Link to the active application](https://expressjs-notetakr.herokuapp.com/)
 - Screenshot of Note Taker Landing Page:
 ![Screenshot of Note Taker Landing Page](./public/assets/images/demonstration-0.png)
-- Screenshot of Get Started:
+- Screenshot of Note Taker Page (After Clicking on Get Started):
 ![Screenshot of Get Started](./public/assets/images/demonstration-1.png)
-- Screenshot of Creating New Note - Hit The Plus Sign And Enter The Note Details:
-![Screenshot of Creating New Note](./public/assets/images/demonstration-2.png)
-- Screenshot of New Notes Being Saved To the Left Columns and Its Details:
-![Screenshot of New Note Being Saved](./public/assets/images/demonstration-3.png)
-- Screenshot of New Notes Being Deleted From the Left Columns:
-![Screenshot of New Notes Being Deleted](./public/assets/images/demonstration-4.png)
+- Screenshot of Creating New Note (Demo) - Hit The Plus Sign And Enter The Note Details:
+![Screenshot of Creating New Note (Demo)](./public/assets/images/demonstration-2.png)
+- Screenshot of New Notes (Demo) Being Saved To The Left Columns And Its Details:
+![Screenshot of New Note (Demo) Being Saved](./public/assets/images/demonstration-3.png)
+- Screenshot of New Notes (Demo) Being Deleted From The Left Columns:
+![Screenshot of New Notes (Demo) Being Deleted](./public/assets/images/demonstration-4.png)
 
 ## License
 
@@ -88,5 +88,5 @@ Please reach me using:
 
 ## Project Links:
 * [Link to the active application](https://expressjs-notetakr.herokuapp.com/)
-* [Github Repository](https://github.com/khanhlam90/note-taker.git)
+* [This Github Repository](https://github.com/khanhlam90/note-taker.git)
 
