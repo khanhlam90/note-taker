@@ -14,7 +14,7 @@ router.get("/notes", (req, res) => {
 
 // router POST data to db.json root
 router.post("/notes", (req, res) => {
-    const notes = JSON.parse(fs.readFileSync("../db/db.json"))
+    const notes = JSON.parse(fs.readFileSync("./db/db.json"))
     
     //get data from body
     const newNote = req.body;
@@ -33,7 +33,7 @@ router.post("/notes", (req, res) => {
 
   // router DELETE the notes
   router.delete("/notes/:id", (req, res) => {
-    const notes = JSON.parse(fs.readFileSync("../db/db.json"));
+    const notes = JSON.parse(fs.readFileSync("./db/db.json"));
 
     const deleteNote = notes.filter((note) => note.id !== req.params.id);
     
